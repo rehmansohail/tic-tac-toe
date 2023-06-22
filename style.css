@@ -6,13 +6,26 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  header, footer {
+  header {
     background-color: #f2f2f2;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    
   }
+  footer{
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+  }
+ 
   
   header h1 {
     margin: 0;
+    font-size: 40px;
   }
   
   main {
