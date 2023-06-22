@@ -3,11 +3,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   
   header {
-    background-color: #f2f2f2;
+    background-color: cadetblue;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body {
     
   }
   footer{
-    background-color: #f2f2f2;
+    background-color: #e3e3e3;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -61,14 +61,18 @@ body {
   #restart-btn {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #4caf50;
+    background-color: darkred;
     color: #fff;
     border: none;
-    font-size: 16px;
     cursor: pointer;
+    height: 70px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: x-large;
   }
   
-  #restart-btn:hover {
-    background-color: #45a049;
-  }
   
+  #restart-btn:active {
+    background-color: aqua;
+  }
+
